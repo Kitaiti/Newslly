@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* ベース
+------------------ */
+body{
+   color: #fff;
+   font-size: 14px;
+   font-family:"Helvetica Neue" Helvetica, Arial, sans-serif;
+   line-height: 1.7;
+}
+
+img{
+   max-width: 100%;
+   height: auto;
+   vertical-align: bottom;
+}
+
+h2{
+   color: #202124;
+   font-size: 24px;
+   padding-bottom: 30px;
+   margin-bottom: 30px;
+   border-bottom: 2px solid #EBEDED;;
+}
+
+li{
+   list-style: none;
+   font-size: 12px;
+}
+
+
+
+
+/* レイアウト
+------------------ */
+/* header */
+.l-header{
+   margin-top: 30px;
+}
+
+.l-a{
+   display: block;
+   text-decoration: none;
+   color: #A6ADB4;
+   margin-left: 20px;
+}
+
+.l-li{
+   color: #343638;
+}
+
+/* footer */
+.l-footer{
+   background-color: #A6ADB4;
+   color: #CBD0D3;
+   padding-top: 100px;
+   padding-bottom: 42px;
+}
+
+
+
+/* レイアウト */
+.l-inner{
+   width: 80%;
+   max-width: 1000px;
+   margin: 0 auto;
+}
+
+.l-section{
+   padding: 60px 0;
+}
+
+.l-col6{
+   width: 47.5%;
+}
+
+.l-col3{
+   width: 30%;
+}
+
+.l-bg-gray{
+   background-color: #F6F8F9;
+}
+
+.l-bg-wh{
+   background-color: #fff;
+}
+/* フレックスボックス */
+.l-flex{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.l-justify-between{
+   justify-content: space-between;
+}
+
+.l-align-center{
+   align-items: center;
+}
+/* スペーシング */
+.l-mb6{
+   margin-bottom: 60px;
+}
+
+.l-mb3{
+   margin-bottom: 30px;
+}
+.l-mt3{
+   margin-top: 30px;
+}
+
+.l-p35{
+   padding: 35px;
+}
+
+
+/* モジュール
+------------------ */
+/* news */
+.news-category{
+   color: #FA6980;
+   font-size: 12px;
+   margin-bottom: 5px;
+}
+
+.news-title{
+   font-size: 18px;
+   color: #202124;
+}
+
+.news-text{
+   color: #A6ADB4;
+}
+/* card */
+
+.card-title{
+   font-size: 18px;
+   color: #202124;
+}
+
+.card-text{
+   color: #A6ADB4;
+}
+/* btn */
+.l-txa{
+   text-align: right;
+}
+.btn a{
+   display: inline-block;
+   font-size: 12px;
+   background-color: #FA6980;
+   text-decoration: none;
+   color: #fff;
+   padding: 12px 43px;
+}
+
+
+/* date */
+small{
+   color: #A6ADB4;
+   font-size: 12px;
+   margin-left: 10px;
+}
